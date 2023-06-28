@@ -1,9 +1,71 @@
-h1 {
+body {
+    font-family: 'Belanosima', sans-serif;
+    background:linear-gradient(red,orange,yellow,green,blue,purple);
+
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    color: rgb(255, 254, 254);
+    text-shadow: 0.04em 0.04em #fc0049, 0.08em 0.08em #fe8f01,
+    0.12em 0.12em #fdf21f, 0.16em 0.16em #3fdf4b, 0.2em 0.2em #3462fe, 0px 0px 10px;
+    opacity: 0.5;
+}
+header h1 {
  font-family: 'Caprasimo', cursive;
-font-size: 70px;
-line-height: 144px;
+font-size: 80px;
+line-height: 1;
+margin: 30px 0;
+
 }
 h2 {
     font-family: 'Belanosima', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
+    line-height: 1;
+    margin: 0;
 }
+h3 {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    margin: 0;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)),
+    url('../photos/06.jpg');
+background-size:  cover;
+background-repeat: no-repeat;
+text-align: center;
+padding: 150px 0;
+}
+header a {
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background:linear-gradient(red,orange,yellow,green,blue,purple);
+    color: black;
+    opacity: 0.5;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+}
+@media (max-width:900px) {
+    header {
+        padding: 60px 0;
+    }
+header h1 {
+    font-size: 50px;
+}
+header h2 {
+    font-size: 30px;
+}
+header h3 {
+    font-size: 18px;
+}
+}
+    
