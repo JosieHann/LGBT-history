@@ -11,6 +11,10 @@ body {
     width: 100%;
     display: block;
 }
+img {
+    border:1px solid white;
+    justify-content: space-evenly;
+}
 header h1, h2, h3 {
     color: rgb(255, 255, 255);
     text-shadow: 0.04em 0.04em #fc0000, 0.08em 0.08em #fe8f01,
