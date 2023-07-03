@@ -321,5 +321,8 @@ main p {
 .embed {
 aspect-ratio: 16 / 9;
 }
+.coded {
+    font-size: 12px;
+}
 }
     
