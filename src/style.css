@@ -286,6 +286,7 @@ section {
 }
 .main p {
     margin-top: 2px;
+    width: 100%;
 }
 .stonewall {
     max-width: 100%;
@@ -294,6 +295,7 @@ section {
 }
 main p {
     margin-top: 0;
+    width: 100%;
 }
 .card-header img {
     display: none;
